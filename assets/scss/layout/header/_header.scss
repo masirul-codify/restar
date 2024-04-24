@@ -12,6 +12,9 @@
             position: relative;
             display: inline-block;
             margin-right: 42px;
+            @include breakpoint(xl){
+                margin-right: 10px;
+            }
             & a{
                 color: #FFF;
                 font-family: var( --tp-secondary-font);
@@ -21,6 +24,9 @@
                 line-height: 28px; 
                 display: inline-block;
                 padding: 30px 0px;
+                @include breakpoint(xl){
+                    font-size: 12px;
+                }
             }
 
             & .submenu{
