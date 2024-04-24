@@ -227,11 +227,23 @@
   display: flex;
   align-items: center;
 }
+.about-content__icon-content-wrapper .about-content__icon {
+  margin-right: 10px;
+}
+.about-content__icon-content-wrapper .about-content__text {
+  border-top: 1px solid var(--tp-black);
+}
 .about-content__icon-content-wrapper .about-content__text-title {
   font-family: var(--tp-secondary-font);
   font-weight: 800;
   color: var(--tp-black);
 }
+.about-content__icon-content-wrapper .about-content__text-description {
+  font-family: var(--tp-secondary-font);
+  font-weight: 500;
+  color: var(--tp-black);
+}
+
 /* End About Content Are */
 * {
   margin: 0;

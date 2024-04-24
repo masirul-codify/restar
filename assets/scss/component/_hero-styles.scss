@@ -1,0 +1,166 @@
+ 
+   
+@use '../utils' as *;
+
+ .hero-bg-primary{
+    background: #111111;
+ }
+
+ .hero-area{
+    position: relative; 
+    &_shapes {
+        &_one{
+            position: absolute;
+            top: 59%;
+            left: 4%;
+            @include breakpoint (lg){
+                display: none;
+            }
+            @include breakpoint (sm){
+                display: none;
+            }
+            @include breakpoint (md){
+                display: none;
+            }
+            @include breakpoint (xs){
+                display: none;
+            }
+
+        }
+        // &_two{
+        //     position: absolute;
+        //     width: auto; 
+        //     height: 100%; 
+        //     display: block;  
+        //     object-fit: cover; 
+        // }
+        &_three{
+            position: absolute;
+            top: 6%;
+            right: 50%;            
+            @include breakpoint (lg){
+                display: none;
+            }
+            @include breakpoint (sm){
+                display: none;
+            }
+            @include breakpoint (md){
+                display: none;
+            }
+            @include breakpoint (xs){
+                display: none;
+            }
+        }
+        &_four{            
+            position: absolute;
+            top: 40%;
+            right: 4%;            
+            @include breakpoint (lg){
+                display: none;
+            }
+            @include breakpoint (sm){
+                display: none;
+            }
+            @include breakpoint (md){
+                display: none;
+            }
+            @include breakpoint (xs){
+                display: none;
+            }
+
+        }
+        &_five{           
+            position: absolute;
+            top: 6%;
+            right: 10%;
+            @include breakpoint (lg){
+                display: none;
+            }
+            @include breakpoint (sm){
+                display: none;
+            }
+            @include breakpoint (md){
+                display: none;
+            }
+            @include breakpoint (xs){
+                display: none;
+            }
+        }
+        &_six{ 
+            position: absolute;
+            top: 68%;
+            right: 40%;
+            @include breakpoint (lg){
+                display: none;
+            }
+            @include breakpoint (sm){
+                display: none;
+            }
+            @include breakpoint (md){
+                display: none;
+            }
+            @include breakpoint (xs){
+                display: none;
+            }
+        }
+    }
+
+    &_hero-left{
+        &-bg{
+            background: var(--tp-white);
+        }
+        padding-bottom: 200px;
+    }
+
+    &_hero-right{
+        &-bg{
+            background: var(--tp-theme-color);
+        }
+        padding: 463px 0px;             
+        @include breakpoint (lg){
+            display: none;
+        }
+        @include breakpoint (sm){
+            display: none;
+        }
+        @include breakpoint (md){
+            display: none;
+        }
+        @include breakpoint (xs){
+            display: none;
+        }
+    }
+    
+
+    &_hero-subtitle{
+            text-align: center; 
+            padding-top: 200px; 
+            margin-bottom: 50px;
+            color: var(--tp-theme-color); 
+            font-family: "Great Vibes";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px;  
+            text-transform: capitalize;
+    }
+
+    &_hero-title{
+        margin-bottom: 50px;
+        color:  #1F1F1F;
+        text-align: center; 
+        font-family: "ZCOOL XiaoWei";
+        font-size: 164px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 174px;  
+        text-transform: capitalize;
+        .low-font{
+            font-size: 84px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 94px;
+            text-transform: capitalize;
+        }
+    }
+ }

@@ -1,0 +1,52 @@
+@use '../utils' as *;
+.swiper {
+    width: 100%;
+    height: 100%; 
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slider-arrow{
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 180px;
+
+  
+  @include breakpoint(lg) { 
+    margin: 0px 20px; 
+  }
+  @include breakpoint(md) { 
+    margin: 0px 20px; 
+  }
+  @include breakpoint(sm) { 
+    margin: 0px 10px; 
+  }
+  @include breakpoint(xs) { 
+    margin: 0px 3px; 
+  }
+}
+
+
+
+.slider-arrow:after{
+content: '';
+}
+
+/* .swiper-btn{
+    position: absolute;
+    top: 50%;
+} */

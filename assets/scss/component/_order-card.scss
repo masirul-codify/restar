@@ -12,38 +12,54 @@
     
     &__content {
         position: absolute;
-        top: 40%;
+        top: 35%;
         left: 25%;
-        transform: translate(-40%, -25%);
-        -webkit-transform: translate(-40%, -25%);
-        -moz-transform: translate(-40%, -25%);
-        -ms-transform: translate(-40%, -25%);
-        -o-transform: translate(-40%, -25%);
+        transform: translate(-35%, -25%);
+        -webkit-transform: translate(-35%, -25%);
+        -moz-transform: translate(-35%, -25%);
+        -ms-transform: translate(-35%, -25%);
+        -o-transform: translate(-35%, -25%);
 }
     
-    &__title {
-        font-size: 20px;
-        font-weight: bold; 
+    &__title { 
         font-family: var(   --tp-secondary-font);
-        color: var(  --tp-theme-color);
+        color: var(  --tp-theme-color); 
+        font-family: "ZCOOL XiaoWei";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;  
+        text-transform: capitalize;
     }
     
-    &__subtitle {
-        font-size: 34px;
-        font-weight: bold;
+    &__subtitle { 
         margin-top: 10px;
         font-family: var(   --tp-secondary-font);
         color: var(   --tp-white);
+ 
+        font-family: "ZCOOL XiaoWei";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        text-transform: capitalize;
     }
     
     &__offer {
         font-size: 16px;
         margin-top: 20px;        
-        color: var(  --tp-theme-color);
+        color: var(  --tp-theme-color); 
+        font-family: "ZCOOL XiaoWei";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;  
+        text-transform: capitalize;
     }
     
     &__btn-wrapper {
         margin-top: 50px;
+        padding-bottom: 50px;
 
     }
 } 

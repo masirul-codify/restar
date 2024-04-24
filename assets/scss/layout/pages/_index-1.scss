@@ -1,8 +1,35 @@
  
-
+@use '../../utils' as *;;
 
 /* About Food area */
 .about-food-area{
     background: var(--tp-white);
+    .image{
+        position: relative;
+        width: 100%;
+        height: 545px;
+        overflow: hidden;
+        img{
+            width: auto;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+
+    .about-right{
+        @include breakpoint(lg){
+            padding-bottom: 50px;
+        }
+        @include breakpoint(md){
+            padding-bottom: 50px;
+        }
+        @include breakpoint(sm){
+            padding-bottom: 50px;
+        }
+        @include breakpoint(xs){
+            padding-bottom: 50px;
+        }
+    }
 } 
 /* End About Food area */
