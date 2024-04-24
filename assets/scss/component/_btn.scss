@@ -1,0 +1,10 @@
+@use '../utils' as *;
+
+.primary-btn{
+    background: var(  --tp-theme-color);
+    color: #fff;
+    padding: 15px 40px;
+    font-weight: 700;
+    font-family: var(   --tp-secondary-font);
+    @include transition;
+}

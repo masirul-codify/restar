@@ -1,0 +1,50 @@
+/* Order Card Style One */
+.order-card { 
+    &__image-content {
+        position: relative;
+        padding: 30px;
+    }
+    
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+    
+    &__content {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        transform: translate(-40%, -25%);
+        -webkit-transform: translate(-40%, -25%);
+        -moz-transform: translate(-40%, -25%);
+        -ms-transform: translate(-40%, -25%);
+        -o-transform: translate(-40%, -25%);
+}
+    
+    &__title {
+        font-size: 20px;
+        font-weight: bold; 
+        font-family: var(   --tp-secondary-font);
+        color: var(  --tp-theme-color);
+    }
+    
+    &__subtitle {
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 10px;
+        font-family: var(   --tp-secondary-font);
+        color: var(   --tp-white);
+    }
+    
+    &__offer {
+        font-size: 16px;
+        margin-top: 20px;        
+        color: var(  --tp-theme-color);
+    }
+    
+    &__btn-wrapper {
+        margin-top: 50px;
+
+    }
+} 
+/* End Order Card Style One */

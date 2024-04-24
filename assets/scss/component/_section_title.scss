@@ -1,0 +1,27 @@
+@use '../utils' as *;
+
+.section-title-wrapper {
+    // Your wrapper styles
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &__icon {
+        margin-right: 15px;
+    }
+
+    &__text {
+        font-family: var(--tp-secondary-font);
+        color: var(--tp-black);
+    }
+}
+
+.section-subtitle {
+    margin-bottom: 30px;
+    &__text {
+        font-family: var(--tp-primary-font);
+        color: var(--tp-black);
+    }
+}
